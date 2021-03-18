@@ -1,5 +1,3 @@
-
-
 #include "tools.h"
 
 void print(){

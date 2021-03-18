@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "python.pythonPath": "C:\\Users\\Joaquim Silveira\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
 }
