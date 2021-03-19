@@ -1,3 +1,12 @@
+#define frontEcho  52                      // attach pin D2 Arduino to pin Echo of HC-SR04
+#define frontTrig  53                     //attach pin D3 Arduino to pin Trig of HC-SR04
+#define leftEcho   48                     // attach pin D2 Arduino to pin Echo of HC-SR04
+#define leftTrig   49                    //attach pin D3 Arduino to pin Trig of HC-SR04
+#define rightEcho  50                      // attach pin D2 Arduino to pin Echo of HC-SR04
+#define rightTrig  51                     //attach pin D3 Arduino to pin Trig of HC-SR04
+
+
+#define ledPin 48
 const int NOP = -1;                    // no operation
 const int IDL = 0;                     //idle
 const int FWD = 1;                     //forward
