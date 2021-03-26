@@ -1,7 +1,7 @@
 #include <SPI.h>
 #include <WiFi101.h>
 char ssid[] = "Martin Router King";
-char pass[] = "legrandinquisiteur";    // your network password (use for WPA, or use as key for WEP)
+char pass[] = "PASSword";    // your network password (use for WPA, or use as key for WEP)
 int keyIndex = 0;                 // your network key Index number (needed only for WEP)
 int status = WL_IDLE_STATUS;
 
