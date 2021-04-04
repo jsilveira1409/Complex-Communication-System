@@ -2,7 +2,9 @@
 #include "Sensors.h"
 int comOp  = NOP;                 //Command Operation init as no operation
 
-void setup (){
+
+
+void setup () {
   Serial1.begin(9600);
   Serial.begin(9600);
   pinMode(MOTA, OUTPUT);
@@ -16,16 +18,21 @@ void setup (){
   pinMode(leftEcho, INPUT); // Sets the echoPin as an INPUT
   pinMode(rightTrig, OUTPUT); // Sets the trigPin as an OUTPUT
   pinMode(rightEcho, INPUT); // Sets the echoPin as an INPUT
-  
+
 }
-int i = 0;
+
 void loop() {
-  forward(255, 255);
-  delay(2000);
-  backward(255, 255);
-  delay(2000);
-  rightFwd();
-  delay(2000);
-  leftFwd();
-  delay(2000);
+  comOp = Serial1.read();
+  Serial.println(comOp, DEC);
+  switch (comOp) {
+    case NOP:
+      breaks();
+      delay(1000);
+      break;
+    case FWD:
+      forward(255, 255);
+      delay(1000);
+      break;
+  }
+delay(100);
 }
