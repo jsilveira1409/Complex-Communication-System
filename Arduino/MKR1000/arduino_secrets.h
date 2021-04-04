@@ -1,2 +1,2 @@
-#define SECRET_SSID "YOUR WIFI'S NAME"
-#define SECRET_PASS "YOUR PASSWORD"
+#define SECRET_SSID "Martin Router King"
+#define SECRET_PASS "legrandinquisiteur"

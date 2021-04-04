@@ -12,6 +12,10 @@ const int NOP = 2;                    // no operation
 const int IDL = 3;                     //idle
 const int FWD = 4;                     //forward
 const int BKW = 5;                     //backwards
+const int RTT = 6;
+const int LTT = 7;
+
+
 const int MOTA = 12;                   //direction of motor A
 const int MOTB = 13;                   //direction of motor B
 const int BRA = 9;                     //brakes on A

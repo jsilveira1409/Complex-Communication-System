@@ -27,12 +27,19 @@ void loop() {
   switch (comOp) {
     case NOP:
       breaks();
-      delay(1000);
       break;
     case FWD:
       forward(255, 255);
-      delay(1000);
+      break;
+    case RTT:
+      rightFwd(255);
+      break;
+    case LTT:
+      leftFwd(255);
+      break;
+    case BKW:
+      backward(255, 255);
       break;
   }
-delay(100);
+delay(50);
 }
