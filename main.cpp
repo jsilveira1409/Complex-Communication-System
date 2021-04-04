@@ -1,7 +1,7 @@
 #include "C++/tools.h"
 
 
-int main(int, char**) {
+int main() {
     std::cout << "Hello world!\n";
     print();
     return 0;

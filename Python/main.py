@@ -1,8 +1,7 @@
-# ctypes_test.py
-import ctypes
-import pathlib
+import http.client
+import requests
 
-if __name__ == "__main__":
-    # Load the shared library into ctypes
-    libname = pathlib.Path().relative_to('/C++') / "tools.so"
-    c_lib = ctypes.CDLL(libname)
+request = requests.get('http://192.168.1.181/')
+
+
+
